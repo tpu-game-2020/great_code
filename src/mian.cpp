@@ -15,11 +15,11 @@ int count = 1000;
 /* main */
 int main() { 
     while (mojisuu++ < count) 
-    sprintf(mojiretsu, "%d", mojisuu), 
-          if ( mojisuu % 15 == 0){printf("FizzBuzz");}
-          else if ( mojisuu % 5 == 0){printf("Buzz");}
-          else if ( mojisuu % 3 == 0){printf("Fizz");}
-          else {printf("%s, ",mojisuu);}
+    sprintf(mojiretsu, "%d", mojisuu); 
+    if ( mojisuu % 15 == 0){printf("FizzBuzz");}
+    else if ( mojisuu % 5 == 0){printf("Buzz");}
+    else if ( mojisuu % 3 == 0){printf("Fizz");}
+    else {printf("%s, ",mojisuu);}
           
 
      system("PAUSE"); 
