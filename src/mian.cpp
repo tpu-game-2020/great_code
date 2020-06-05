@@ -4,9 +4,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*変数設定 */
 char mojiretsu[1000];
 int mojisuu = 0;
 int count = 1000;
+
 /*  */
 #define _CRT_SECURE_NO_WARNINGS
 #ifdef this_is_a_great_codo
@@ -15,7 +17,7 @@ int count = 1000;
 /* main */
 int main() { 
     while (mojisuu++ < count) 
-    sprintf(mojiretsu, "%d", mojisuu), 
+          sprintf(mojiretsu, "%d", mojisuu), 
           printf("%s, ", mojisuu % 15 ?  mojisuu % 3 ? mojisuu % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz"); 
 
      system("PAUSE"); 
