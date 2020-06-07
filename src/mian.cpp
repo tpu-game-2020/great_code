@@ -7,20 +7,19 @@
 
 /*  */
 #define _CRT_SECURE_NO_WARNINGS
-#define MAXCOUNT 1000
 #ifdef this_is_a_great_codo
 
 #endif
 /* main */
 int main()
  { 
-    //while (mojisuu++ < count) 
-    for (int i = 1; i < MAXCOUNT; i++)
-    {   int mojisu = i;
-        if (mojisu % 15 == 0) printf("FizzBuzz, ");
-        else if (mojisu % 5 == 0) printf("Buzz, ");
-        else if (mojisu % 3 == 0) printf("Fizz, ");
-        else printf("%d, ",mojisu);
+     const int MAX_COUNT = 1000 ;
+    for (int i = 1; i < MAX_COUNT; i++)
+    {  
+        if (i % 15 == 0) printf("FizzBuzz, ");
+        else if (i % 5 == 0) printf("Buzz, ");
+        else if (i % 3 == 0) printf("Fizz, ");
+        else printf("%d, ",i);
     }
     system("PAUSE"); 
 }
