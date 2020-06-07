@@ -7,6 +7,7 @@
 //char mojiretsu[1000];
 //int mojisuu = 0;
 //int count = 1000;
+
 /*  */
 #define _CRT_SECURE_NO_WARNINGS
 #define MAXCOUNT 1000
