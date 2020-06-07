@@ -4,9 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /*  */
-#define _CRT_SECURE_NO_WARNINGS
 #ifdef this_is_a_great_codo
 
 #endif
