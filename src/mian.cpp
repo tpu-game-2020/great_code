@@ -18,12 +18,12 @@
 int main()
  { 
     //while (mojisuu++ < count) 
-    for (int i = 0; i < MAXCOUNT; i++)
+    for (int i = 1; i < MAXCOUNT; i++)
     {
         //sprintf(mojiretsu, "%d", mojisuu); 
-        if (i % 15 == 0) printf("FizzBuzz");
-        else if (i % 5 == 0) printf("Buzz");
-        else if (i % 3 == 0) printf("Fizz");
+        if (i % 15 == 0) printf("FizzBuzz, ");
+        else if (i % 5 == 0) printf("Buzz, ");
+        else if (i % 3 == 0) printf("Fizz, ");
         else printf("%d, ",i);
     }
     system("PAUSE"); 
