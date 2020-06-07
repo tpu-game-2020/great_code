@@ -1,12 +1,11 @@
-﻿/* 問題：1から順番に数字を発言するのだけれども、その数字が3で割り切れれはFizzと発言して、5ならBuzz、１５でならFizzBuzzと発言する */
+﻿#ifdef this_is_a_great_codo
+ 問題：1から順番に数字を発言するのだけれども、その数字が3で割り切れれはFizzと発言して、5ならBuzz、１５でならFizzBuzzと発言する 
+#endif
 
 /* header Files */
 #include <stdio.h>
+#include <stdlib.h> //ststemPAUSE用
 
-/*  */
-#ifdef this_is_a_great_codo
-
-#endif
 /* main */
 int main()
  { 
