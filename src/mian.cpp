@@ -4,7 +4,6 @@
 
 /* header Files */
 #include <stdio.h>
-#include <stdlib.h> //ststemPAUSE用
 
 /* main */
 int main()
@@ -17,5 +16,5 @@ int main()
         else if (i % 3 == 0) printf("Fizz, ");
         else printf("%d, ",i);
     }
-    system("PAUSE"); 
+    return(0);
 }
