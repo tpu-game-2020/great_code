@@ -15,7 +15,8 @@
 
 #endif
 /* main */
-int main() { 
+int main()
+ { 
     //while (mojisuu++ < count) 
     for (int i = 0; i < MAXCOUNT; i++)
     {
@@ -26,4 +27,4 @@ int main() {
         else printf("%d, ",i);
     }
     system("PAUSE"); 
-    // }
+}
