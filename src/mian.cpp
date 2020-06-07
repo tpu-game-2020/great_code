@@ -9,6 +9,6 @@ int i = 0;
 int main()
   {
   while (i++ < 1000)sprintf(i, "%d", i),
-  printf("%s, ", i % 15 ? i % 3 ? i % 5 ? i : "Buzz" : "Fizz" : "FizzBuzz");
+  printf("%d, ", i % 15 ? i % 3 ? i % 5 ? i : "Buzz" : "Fizz" : "FizzBuzz");
   system("PAUSE"); 
   }
