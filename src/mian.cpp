@@ -1,5 +1,5 @@
-char mojiretsu[1000];
-int mojisuu = 0;
+char i[1000];
+int n = 0;
 #include <stdio.h>
 #include <stdlib.h>
 #pragma warning(disable : 4996)
@@ -8,7 +8,7 @@ int mojisuu = 0;
 #endif
 int main() 
 {
-  while (mojisuu++ < 1000)sprintf(mojiretsu, "%d", mojisuu), 
-  printf("%s, ", mojisuu % 15 ? mojisuu % 3 ? mojisuu % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz");
+  while (n++ < 1000)sprintf(i, "%d", n), 
+  printf("%s, ", n % 15 ? n % 3 ? n % 5 ? i : "Buzz" : "Fizz" : "FizzBuzz");
   system("PAUSE");
 }
