@@ -10,5 +10,4 @@ int main()
 {
   while (n++ < 1000)sprintf(i, "%d", n), 
   printf("%s, ", n % 15 ? n % 3 ? n % 5 ? i : "Buzz" : "Fizz" : "FizzBuzz");
-  system("PAUSE");
 }
